@@ -1,1 +1,12 @@
+Body	{background-color:#7463f7;}
+h1	{color:#b5d145;}
+p	{color:#0d0d0c;}
 
+.center{margin-left: auto;	margin-right: auto;}
+
+img	{display:block;
+	width:110px;
+	height:100px;
+	width:100%;}
+
+figcaption {text-align:center;}
