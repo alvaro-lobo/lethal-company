@@ -1,9 +1,14 @@
+
+Para añadir estilos a la etiqueta <b> con el mismo color que los otros elementos de texto, simplemente añade una regla CSS para <b> con el mismo color que has definido para los otros elementos de texto. Aquí tienes el CSS actualizado:
+
+css
+Copy code
 body {
     background-color: #0c0d0c;
     color: #b5d145;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, b {
     color: #b5d145;
 }
 
