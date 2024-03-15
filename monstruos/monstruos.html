@@ -12,10 +12,45 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            font-family: Arial, sans-serif; /* Cambiar la fuente por una más común */
+            background-color: #f5f5f5; /* Agregar un color de fondo */
         }
 
         #contenido {
             text-align: center;
+            padding: 20px; /* Agregar espacio alrededor del contenido */
+            background-color: #fff; /* Agregar un color de fondo */
+            border-radius: 10px; /* Agregar bordes redondeados al contenedor */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregar sombra al contenedor */
+        }
+
+        img {
+            display: block;
+            margin: auto; /* Centrar la imagen horizontalmente */
+            max-width: 100%; /* Ajustar el tamaño máximo de la imagen */
+            height: auto; /* Mantener la proporción de aspecto de la imagen */
+            margin-bottom: 20px; /* Agregar espacio debajo de la imagen */
+        }
+
+        p {
+            margin-bottom: 10px; /* Agregar espacio entre párrafos */
+        }
+
+        a {
+            text-decoration: none; /* Quitar el subrayado de los enlaces */
+            color: #007bff; /* Cambiar el color del texto de los enlaces */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Agregar subrayado al pasar el mouse sobre los enlaces */
+        }
+
+        table {
+            margin-top: 20px; /* Agregar espacio encima de la tabla */
+        }
+
+        td {
+            padding: 10px; /* Agregar espacio alrededor del contenido de las celdas */
         }
     </style>
 </head>
@@ -24,11 +59,11 @@
         <h1>Monstruos</h1>
 
         <h4><b>Cascanueces</b></h4>
-        <img src='../figuras/cascanueces.png' style='display:block; margin:auto; width:150px;'> 
+        <img src='../figuras/cascanueces.png'>
 
         <p>Dificultad de contrarrestar: <b>Difícil</b></p>
 
-        <p>El guardian de la casa que sólo capta movimiento; Recuerda la última criatura que notó, ya sea que se estuviera moviendo o no.</p>
+        <p>El guardián de la casa solo capta movimiento; recuerda la última criatura que notó, ya sea que se estuviera moviendo o no.</p>
 
         <p>Cuando ven al jugador, abren los ojos e intentan dispararle con su escopeta de dos cañones.</p>
 
@@ -38,14 +73,4 @@
 
         <p>El lagarto de esporas es un lagarto con una boca enorme y siempre huirá cuando intentes acercarte. Al principio intentará asustarte con su enorme boca. Te atacará si atacas primero o si no tiene adónde ir. En definitiva, si ves uno de estos, no te preocupes y sigue tu camino.</p>
 
-        <p>Si te ataca, serás alcanzado por un campo de veneno y también intentará morderte.</p>
-        
-        <table border='10'>
-            <tr>
-                <td><a href='../index.html'><img src='../figuras/lethal_company.jpg'> <figcaption>Inicio</figcaption> </a></td>
-                <td><a href='../mapas/mapas.html'><img src='../figuras/luna.png'> <figcaption>mapas</figcaption> </a></td>
-            </tr>
-        </table>
-    </div>
-</body>
-</html>
+        <p>Si te ataca, serás alcanzado por un campo de veneno y también
